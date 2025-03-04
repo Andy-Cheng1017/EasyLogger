@@ -9,5 +9,6 @@ src_filter = [
     "-<easylogger/plugins/*>",
 ]
 
+
 env.Replace(SRC_FILTER=src_filter)
 env.Append(CPPPATH=[realpath("easylogger/inc")])
