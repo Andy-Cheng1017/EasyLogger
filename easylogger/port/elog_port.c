@@ -61,7 +61,7 @@ void elog_port_deinit(void) { /* add your code here */ }
  */
 void elog_port_output(const uint8_t *log, size_t size) {
   CircularBuffer_WriteBuffer(&txBuffer, log, size);
-  start_dma_transfer();
+  ELogDmaTransfer();
   /* add your code here */
 }
 

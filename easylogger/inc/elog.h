@@ -34,6 +34,8 @@
 #include <stddef.h>
 #include <stdbool.h>
 
+#include "elog_at.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
