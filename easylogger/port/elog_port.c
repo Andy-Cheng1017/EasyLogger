@@ -27,6 +27,7 @@
  */
 
 #include <elog.h>
+#include <stdio.h>
 #include "CircularBuffer.h"
 #include "wk_dma.h"
 #include "FreeRTOS.h"
